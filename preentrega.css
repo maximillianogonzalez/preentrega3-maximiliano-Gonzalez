@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .1) inset;
+}
+
+
+#balance-mensual {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#sugerencias {
+  margin-top: 20px;
+  font-style: italic;
+  color: #888;
+}
